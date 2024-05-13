@@ -27,6 +27,7 @@ const Services = () => {
   
     <div>
       {/* Banner Image */}
+      <h1>banner data</h1>
       <div
         className="py-20  text-center bg-cover"
         style={{
