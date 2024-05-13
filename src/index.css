@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+@layer utilities {
+  .font-roboto {
+    font-family: "Roboto", sans-serif;
+  }
+  .font-roboto {
+    font-family: "Roboto", sans-serif;
+  }
+  .nav-link {
+    @apply relative;
+  }
+}
+
+@layer components {
+  .gradient_color {
+    @apply bg-gradient-to-b from-white to-red-500;
+  }
+  .center_div {
+    @apply flex items-center justify-center;
+  }
+}
+
+.span {
+  font-size: 16px;
+  font-family: "barlow", sans-serif;
+  font-weight: bold;
+}
+
+.swiper-slide-active {
+  width: 50vw;
+}
+
+
+
