@@ -14,6 +14,7 @@ import "swiper/css";
 
 import "tailwindcss/tailwind.css";
 
+
 // import required modules
 import { Autoplay, Pagination } from "swiper/modules";
 import Newsletter from "./Newsletter";
