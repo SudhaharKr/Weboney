@@ -79,6 +79,7 @@ const WebsiteDevelopment = () => {
       <Swiper
         slidesPerView={1}
         spaceBetween={30}
+        grabCursor={true}
         pagination={{
           clickable: true,
         }}
